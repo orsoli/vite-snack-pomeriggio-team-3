@@ -1,6 +1,4 @@
 <script>
-import Home from '../pages/Home.vue';
-
 export default {
     name: 'Header',
     data() {
