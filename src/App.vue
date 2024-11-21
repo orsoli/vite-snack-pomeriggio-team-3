@@ -1,5 +1,5 @@
 <script>
-import Home from './components/pages/Home.vue';
+import { RouterView } from "vue-router";
 import Header from './components/partials/Header.vue';
 
 export default {
@@ -11,7 +11,7 @@ export default {
 
     components: {
       Header,
-      Home,
+      RouterView,
     },
 
     methods: {
@@ -22,7 +22,7 @@ export default {
 
 <template>
   <Header />
-  <Home />
+  <RouterView/>
 </template>
 
 <style lang='scss'>
